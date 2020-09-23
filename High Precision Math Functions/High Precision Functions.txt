@@ -1,0 +1,46 @@
+
+
+Higher Precision Advanced Math Functions for Special Applications
+
+Author: Jay Tanner
+
+Bugs or suggestions
+E-Mail:
+Jay@NeoProgrammics.com
+
+
+==================================================================
+These functions use the 29 digit precision decimal data type.
+
+Potential accuracy: Up to ± 0.000000000000000000000000001
+The potential accuracy may sometimes be a tiny bit less
+due to the inexact nature of trancendental functions and the
+internal rounding errors inherent in digital computations.
+
+-----------------------------------------------------------
+The higher precision functions in this implementation are:
+
+Sine(x)    - Circular sine for degree arguments
+Cosine(x)  - Circular cosine for degree arguments
+Tangent(x) - Circular tangent for degree arguments
+
+ExpF(x)    - Natural exponential function
+LogE(x)      - Natural logarithm function
+Log10(x)   - Base 10 logarithm function
+AntiLog    - Base 10 antilog function
+
+Sinh(x)    - Hyperbolic sine function
+Cosh(x)    - Hyperbolic cosine function
+Tanh(x)    - Hyperbolic tangent function
+ArcSinh(x) - Hyperbolic arc sine function
+ArcCosh(x) - Hyperbolic arc cosine function
+ArcTanh(x) - Hyperbolic arc tangent function
+
+Square_Root(x) - High precision square root function
+Cube_Root(x)   - High precision cube root function
+
+==================================================================
+
+When an error is detected, an empty string is returned from the
+function.
+
